@@ -17,16 +17,16 @@ const timelineEvents = [
   },
   {
     id: 2,
-    date: "December 2022",
-    title: "Winter Festival",
-    description: "Our first performance together at the Winter Festival - so many mistakes but so much fun!",
-    image: "/placeholder.svg?height=300&width=400",
+    date: "October 2022",
+    title: "Cricket Match",
+    description: "From the bleachers to the boundary ropes, we roared for every run—this wasn’t just a match, it was one of our best team huddles yet. Cheers to the seniors who made every cheer count and every moment unforgettable! 🎉🏏",
+    image: "/timeline7.jpg?height=300&width=400",
   },
   {
     id: 3,
     date: "November 2022",
     title: "Ethinic Day",
-    description: "Late night study sessions and way too much coffee. We survived!",
+    description: "When laughter mingles with the rustle of traditional textiles, magic happens. Ethnic Day was our runway of roots, where every outfit celebrated identity and unity. Cheers to the colors, the camaraderie, and the seniors who led the way! 🎨🤝",
     image: "/timeline2.jpg?height=300&width=400",
   },
   {
@@ -40,7 +40,7 @@ const timelineEvents = [
     id: 5,
     date: "May 2023",
     title: "Spring Break Trip",
-    description: "Our volunteer trip to build houses - we learned so much about ourselves and each other.",
+    description: "Our Spring Break was spent swinging hammers and raising walls for families in need—an unforgettable journey that tested our teamwork, grit, and compassion",
     image: "/timeline1.JPG?height=300&width=400",
   },
   {
@@ -53,8 +53,8 @@ const timelineEvents = [
   {
     id: 7,
     date: "February 2024",
-    title: "Science Fair Domination",
-    description: "Sweeping the regional science fair with three first-place projects. Making history!",
+    title: "updating ..........",
+    description: "updating .....",
     image: "/placeholder.svg?height=300&width=400",
   },
   {
