@@ -65,7 +65,7 @@ export default function CountdownTimer({ targetDate }: CountdownTimerProps) {
       </div>
 
       <div className="space-y-4">
-        <Button
+        {/* <Button
           size="lg"
           className="bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-600 hover:to-purple-700 text-white border-none shadow-[0_0_15px_rgba(138,43,226,0.5)]"
         >
@@ -73,7 +73,7 @@ export default function CountdownTimer({ targetDate }: CountdownTimerProps) {
           <Link href="https://zoom.us" target="_blank" rel="noopener noreferrer">
             Join Temporal Convergence
           </Link>
-        </Button>
+        </Button> */}
 
         <p className="text-sm text-indigo-400 text-center">
           Add this temporal event to your calendar to ensure proper timeline synchronization!

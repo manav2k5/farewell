@@ -20,6 +20,20 @@ export default function Home() {
         <HeroSection />
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-16">
+
+        <section
+            id="timeline"
+            className="col-span-1 md:col-span-2 bg-[#0c0c2d]/80 backdrop-blur-sm rounded-xl shadow-[0_0_15px_rgba(138,43,226,0.3)] p-6 transform transition-all hover:shadow-[0_0_20px_rgba(138,43,226,0.5)] border border-indigo-900"
+          >
+            <div className="flex items-center mb-6">
+              <CalendarClock className="h-6 w-6 text-cyan-400 mr-2" />
+              <h2 className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
+                Chronological Voyage
+              </h2>
+            </div>
+            <Timeline />
+          </section>
+
           <section
             id="photos"
             className="col-span-1 md:col-span-2 bg-[#0c0c2d]/80 backdrop-blur-sm rounded-xl shadow-[0_0_15px_rgba(138,43,226,0.3)] p-6 transform transition-all hover:shadow-[0_0_20px_rgba(138,43,226,0.5)] border border-indigo-900"
@@ -33,18 +47,7 @@ export default function Home() {
             <PhotoGallery />
           </section>
 
-          <section
-            id="timeline"
-            className="col-span-1 md:col-span-2 bg-[#0c0c2d]/80 backdrop-blur-sm rounded-xl shadow-[0_0_15px_rgba(138,43,226,0.3)] p-6 transform transition-all hover:shadow-[0_0_20px_rgba(138,43,226,0.5)] border border-indigo-900"
-          >
-            <div className="flex items-center mb-6">
-              <CalendarClock className="h-6 w-6 text-cyan-400 mr-2" />
-              <h2 className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
-                Chronological Voyage
-              </h2>
-            </div>
-            <Timeline />
-          </section>
+          
 
           <section
             id="messages"
@@ -95,7 +98,7 @@ export default function Home() {
                 Temporal Convergence
               </h2>
             </div>
-            <CountdownTimer targetDate="2025-06-15T18:00:00" />
+            <CountdownTimer targetDate="2025-06-14T16:00:00" />
           </section>
         </div>
 

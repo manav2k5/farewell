@@ -15,9 +15,9 @@ const seniors = [
     thenPhoto: "/photo1.JPG?height=400&width=300",
     nowPhoto: "/photo2.JPG?height=400&width=300",
     description:
-      "From freshman year to graduation, Alex has transformed from a shy newcomer to the confident leader of the debate team.",
+      "“Here’s the legendary squad that turned every panic-stricken deadline into a group therapy session—and somehow made late-night coffee runs look like a competitive sport.",
     year: {
-      then: "2021",
+      then: "2022",
       now: "2025",
     },
   },
@@ -27,9 +27,9 @@ const seniors = [
     thenPhoto: "/photo3.jpg?height=400&width=300",
     nowPhoto: "/photo4.jpg?height=400&width=300",
     description:
-      "Jamie's journey from a quiet artist to the creator of our school's most iconic mural has been incredible to witness.",
+      "Here she is—our official Peace Ambassador! While the rest of us were running around panicking over missing semicolons, she’d just flash that perfectly timed ✌️ and remind us, ‘Breathe, I’ve got this.’",
     year: {
-      then: "2021",
+      then: "2022",
       now: "2025",
     },
   },
@@ -38,31 +38,53 @@ const seniors = [
     name: "Taylor Williams",
     thenPhoto: "/photo5.jpg?height=400&width=300",
     nowPhoto: "/photo6.jpg?height=400&width=300",
-    description: "Taylor went from struggling with calculus to becoming our math team captain. What a transformation!",
+    description: "",
     year: {
-      then: "2021",
+      then: "2022",
       now: "2025",
     },
   },
   {
     id: 4,
     name: "Jordan Lee",
-    thenPhoto: "/placeholder.svg?height=400&width=300",
+    thenPhoto: "/photo7.jpg?height=400&width=300",
     nowPhoto: "/placeholder.svg?height=400&width=300",
-    description: "Jordan's growth from a bench player to basketball team MVP shows what dedication can achieve.",
+    description: " When deadlines stacked up like unread emails, you proved the real measure of composure is balancing a water bottle on someone’s head and still nailing the group selfie. Thanks for teaching us that a little silliness (and impeccable equilibrium) can lighten any load. We’ll forever cherish your gravity-defying antics! ❤️",
     year: {
-      then: "2021",
+      then: "2022",
       now: "2025",
     },
   },
   {
     id: 5,
     name: "Casey Martinez",
-    thenPhoto: "/placeholder.svg?height=400&width=300",
+    thenPhoto: "/photo8.jpg?height=400&width=300",
     nowPhoto: "/placeholder.svg?height=400&width=300",
-    description: "Casey's evolution from a nervous public speaker to student body president has inspired us all.",
+    description: "One of you rolled into every obstacle with superhero determination, while the other provided the pep-talks, rescue snacks, and masterful behind-the-scenes support. Together, you showed us that true leadership isn’t about how fast you go—but how many hearts you lift along the way. Your resilience and kindness have left an indelible mark on our souls. 💪💙",
     year: {
-      then: "2021",
+      then: "2022",
+      now: "2025",
+    },
+  },
+  {
+    id: 6,
+    name: "Casey Martinez",
+    thenPhoto: "/photo9.jpeg?height=400&width=300",
+    nowPhoto: "/placeholder.svg?height=400&width=300",
+    description: "Every time you squashed a stubborn bug or launched a feature, your arms shot sky-high in celebration (and we all joined in). You taught us that triumph isn’t just about the win—it’s about the collective hype, the shared fist-bumps, and the perfectly timed victory pose. Our group chat will never recover from losing your signature hype squad energy! 🕺🎉.",
+    year: {
+      then: "2022",
+      now: "2025",
+    },
+  },
+  {
+    id: 7,
+    name: "Casey Martinez",
+    thenPhoto: "/photo10.jpg?height=400&width=300",
+    nowPhoto: "/placeholder.svg?height=400&width=300",
+    description: "Fueled by half-drunk coffees, late-night pizza debates, and an endless supply of “one-more-line-of-code” resolve, you transformed every 3 AM panic into an epic brainstorming party. Between impromptu sing-alongs and philosophical rants about snack strategies, you showed us that teamwork tastes best with laughter and caffeine. We’ll miss those desk huddles more than our first cup of morning joe. ☕🌙",
+    year: {
+      then: "2022",
       now: "2025",
     },
   },
@@ -92,10 +114,10 @@ export default function PhotoGallery() {
     <div className="relative">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div className="relative aspect-[3/4] w-full max-w-md mx-auto overflow-hidden rounded-xl shadow-[0_0_15px_rgba(138,43,226,0.3)] border border-indigo-800">
-          {/* <div className="absolute top-0 left-0 z-10 bg-gradient-to-r from-cyan-500 to-purple-600 text-white px-3 py-1 rounded-br-lg text-sm font-medium flex items-center">
+           <div className="absolute top-0 left-0 z-10 bg-gradient-to-r from-cyan-500 to-purple-600 text-white px-3 py-1 rounded-br-lg text-sm font-medium flex items-center">
             <Clock className="h-3 w-3 mr-1" />
             <span>{showThen ? currentSenior.year.then : currentSenior.year.now}</span>
-          </div> */}
+          </div> 
 
           <Dialog>
             <DialogTrigger asChild>
@@ -182,12 +204,12 @@ export default function PhotoGallery() {
                   <Clock className="mr-2 h-4 w-4" />
                   Time Jump to {showThen ? "2025" : "2021"}
                 </Button>
-                <Button
+                {/* <Button
                   onClick={() => alert(`Messages for ${currentSenior.name} would appear here!`)}
                   className="bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-600 hover:to-purple-700 text-white border-none"
                 >
                   View Temporal Messages
-                </Button>
+                </Button> */}
               </div>
             </motion.div>
           </AnimatePresence>

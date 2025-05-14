@@ -12,59 +12,59 @@ import confetti from "canvas-confetti"
 const messages = [
   {
     id: 1,
-    sender: "Emma",
+    sender: "Bhuvya",
     avatar: "/placeholder.svg?height=40&width=40",
-    message: "You've been such an inspiration to all of us! Your kindness and leadership will be missed.",
-    hasVoiceNote: true,
+    message: "Thank you for always being there , whether it was for advice on a tough class or just a friendly face in the hallway. Your guidance has meant more than you know.",
+    
   },
   {
     id: 2,
-    sender: "Michael",
+    sender: "Danish",
     avatar: "/placeholder.svg?height=40&width=40",
-    message: "Remember that time we stayed up all night finishing the science project? Good times!",
-    hasVoiceNote: false,
+    message: "I'll always remember you guys . Those moments with you made our time here brighter. Thank you for the laughter and the good times.",
+    
   },
   {
     id: 3,
-    sender: "Sophia",
+    sender: "Arisha",
     avatar: "/placeholder.svg?height=40&width=40",
-    message: "I'll never forget our coffee study sessions. You helped me pass calculus!",
-    hasVoiceNote: true,
+    message: "It's hard to say goodbye to people who've become such a big part of our university family. We've looked up to you, and we'll miss your presence more than words can say",
+    
   },
   {
     id: 4,
-    sender: "Daniel",
+    sender: "Aanya",
     avatar: "/placeholder.svg?height=40&width=40",
-    message: "From debate team rivals to best friends. What a journey it's been!",
-    hasVoiceNote: false,
+    message: "We're really gonna miss you all. Like, a lot. Good luck with everything, and don't be strangers!",
+    
   },
   {
     id: 5,
-    sender: "Olivia",
+    sender: "Supriya",
     avatar: "/placeholder.svg?height=40&width=40",
-    message: "Your passion for helping others has inspired me to volunteer more. Thank you!",
-    hasVoiceNote: true,
+    message: "Seriously though, go kill it out there. You're all gonna do amazing things, and we're actually kinda jealous but also super happy for you",
+    
   },
   {
     id: 6,
-    sender: "Ethan",
+    sender: "Shawn",
     avatar: "/placeholder.svg?height=40&width=40",
     message: "You're going to crush it in college! Can't wait to see what you accomplish next.",
-    hasVoiceNote: false,
+    
   },
   {
     id: 7,
-    sender: "Ava",
+    sender: "Saptaswa",
     avatar: "/placeholder.svg?height=40&width=40",
     message: "Thanks for always being there when I needed someone to talk to. You're the best!",
-    hasVoiceNote: true,
+    
   },
   {
     id: 8,
-    sender: "Noah",
+    sender: "Kratik",
     avatar: "/placeholder.svg?height=40&width=40",
     message: "The basketball team won't be the same without you. You're a legend!",
-    hasVoiceNote: false,
+    
   },
 ]
 
